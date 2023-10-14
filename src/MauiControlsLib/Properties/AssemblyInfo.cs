@@ -1,0 +1,1 @@
+﻿[assembly: XmlnsDefinition("http://www.tsjdev-apps.de/controls/maui", "MauiControlsLib.Controls")]
