@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiControlsLib", "src\MauiControlsLib\MauiControlsLib.csproj", "{A628AA9A-A1BC-4F56-943A-FABF62590CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiControlsLib", "src\MauiControlsLib\MauiControlsLib.csproj", "{A628AA9A-A1BC-4F56-943A-FABF62590CD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_src", "01_src", "{4D364F8D-4B7A-40B1-8AC1-714255731245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A628AA9A-A1BC-4F56-943A-FABF62590CD6} = {4D364F8D-4B7A-40B1-8AC1-714255731245}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7FE867D-812C-4340-9CE0-C80A433043E8}
