@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using MauiControlsLib;
 
 namespace MauiControlsLibSample
 {
@@ -6,9 +7,10 @@ namespace MauiControlsLibSample
     {
         public static MauiApp CreateMauiApp()
         {
-            var builder = MauiApp.CreateBuilder();
+            MauiAppBuilder builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiControlsLib()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
