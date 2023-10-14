@@ -25,4 +25,8 @@
 	  <Folder Include="Platforms\Windows\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="M.BindableProperty.Generator" Version="0.11.1" />
+	</ItemGroup>
+
 </Project>
