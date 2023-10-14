@@ -7,6 +7,8 @@ public partial class RatingControl : GraphicsView
 {
     private readonly RatingCanvas _drawableCanvas;
 
+#pragma warning disable CS0169
+
 
     /// <summary>
     ///     Gets or sets the number of rating items to be displayed.
@@ -61,6 +63,8 @@ public partial class RatingControl : GraphicsView
         DefaultValue = "Colors.LightGray",
         DefaultBindingMode = nameof(BindingMode.OneWay))]
     private readonly Color _unfillColor;
+
+#pragma warning restore CS0169
 
     /// <summary>
     ///     Gets or sets the path used to draw each rating item.
