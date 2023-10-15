@@ -19,7 +19,8 @@
 
 	<PropertyGroup>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Title>MauiControlsLib</Title>
+		<PackageId>tsjdevapps.MauiControlsLib</PackageId>
+		<Title>tsjdevapps.MauiControlsLib</Title>
 		<Version>1.0.0</Version>
 		<Authors>Thomas Sebastian Jensen</Authors>
 		<Company>tsjdev-apps.de</Company>
