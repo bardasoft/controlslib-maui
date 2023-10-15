@@ -4,9 +4,9 @@ This repository contains some custom made controls for your .NET MAUI applicatio
 
 ## Installation
 
-Install the package via [NuGet](https://www.nuget.org/packages/MauiControlsLib).
+Install the package via [NuGet](https://www.nuget.org/packages/tsjdevapps.MauiControlsLib).
 
-<a href="https://www.nuget.org/packages/MauiControlsLib" target="_blank">![Nuget](https://img.shields.io/nuget/v/MauiControlsLib)</a>
+<a href="https://www.nuget.org/packages/tsjdevapps.MauiControlsLib" target="_blank">![Nuget](https://img.shields.io/nuget/v/tsjdevapps.MauiControlsLib)</a>
 
 ## Initialization
 
