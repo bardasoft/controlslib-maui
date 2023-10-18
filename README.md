@@ -34,6 +34,31 @@ xmlns:controls="http://www.tsjdev-apps.de/controls/maui"
 
 ## Available Controls
 
+### InitialsControl
+
+You can use the `InitialsControl` in your .NET MAUI application to show a round badge with the initials of a person.
+
+The following table explains all the available properties and their default value.
+
+| **name** | **type** | **default value** | **description** |
+|-|-|-|-|
+| `DefaultBackgroundColor` | `Color` | `Colors.LightGray` | Indicates the default background color if no `name` is available |
+| `TextColorLight` | `Color` | `Colors.White` | Indicates the light text color |
+| `TextColorDark` | `Color` | `Colors.Black` | Indicates the dark text color |
+| `Name` | `string` | `string.Empty` | Indicates the name to take the initials from |
+| `Size` | `ControlSize` | `ControlSize.Small` | Indicates the size of the control |
+
+*Screenshot of `InitialsControl` on **Android***
+
+![](./docs/mauicontrollibs-initalscontrol-android.png)
+
+
+*Screenshot of `InitialsControl` on **Windows***
+
+![](./docs/mauicontrollibs-initialscontrol-windows.png)
+
+
+
 ### RatingControl
 
 You can use the `RatingControl` in your .NET MAUI application.
