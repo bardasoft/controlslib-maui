@@ -21,7 +21,7 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>tsjdevapps.MauiControlsLib</PackageId>
 		<Title>tsjdevapps.MauiControlsLib</Title>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<Authors>Thomas Sebastian Jensen</Authors>
 		<Company>tsjdev-apps.de</Company>
 		<Description>Controls Library for .NET MAUI</Description>
@@ -32,7 +32,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageTags>.NET MAUI, Controls, Library, MAUI, net6, net7</PackageTags>
 		<PackageReleaseNotes>
-			- First Release
+			- Add InitialsControl
 		</PackageReleaseNotes>
 		<NeutralLanguage>en</NeutralLanguage>
 	</PropertyGroup>
