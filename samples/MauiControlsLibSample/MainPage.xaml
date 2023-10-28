@@ -6,8 +6,22 @@
 
     <ScrollView>
         <VerticalStackLayout Spacing="25"
-                             Padding="30,0"
+                             Padding="30"
                              VerticalOptions="Center">
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="12">
+                <controls:StaticChipControl Text="Default" />
+
+                <controls:StaticChipControl Text="My Chip"
+                                            Color="LightBlue"
+                                            TextColor="Black" />
+
+                <controls:StaticChipControl Text="Visual Studio"
+                                            ImageSource="visualstudio.png"
+                                            Color="#FF5F3DDA"
+                                            TextColor="White" />
+            </HorizontalStackLayout>
 
             <HorizontalStackLayout HorizontalOptions="Center"
                                    Spacing="12">
