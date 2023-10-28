@@ -85,6 +85,30 @@ The following table explains all the available properties and their default valu
 ![](./docs/mauicontrollibs-ratingcontrol-windows.png)
 
 
+### StaticChipControl
+
+You can use the `StaticChipControl` in your .NET MAUI application.
+
+The following table explains all the available properties and their default value.
+
+| **name** | **type** | **default value** | **description** |
+|-|-|-|-|
+| `Text` | `string` | `string.Empty` | Indicates the text of the chip to be displayed |
+| `Color` | `Color` | `Colors.LightGray` | Indicates the background color of the chip |
+| `TextColor` | `Color` | `Colors.Black` | Indicates the text color of the text |
+| `ImageSource` | `ImageSource` | `null` | Indicates the icon of the chip |
+
+*Screenshot of `StaticChipControl` on **Android***
+
+![](./docs/mauicontrollibs-staticchipcontrol-android.png)
+
+
+*Screenshot of `StaticChipControl` on **Windows***
+
+![](./docs/mauicontrollibs-staticchipcontrol-windows.png)
+
+
+
 ## Buy Me A Coffee
 
 I appreciate any form of support to keep my _Open Source_ activities going.
