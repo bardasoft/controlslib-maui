@@ -9,6 +9,23 @@
                              Padding="30"
                              VerticalOptions="Center">
 
+            <VerticalStackLayout HorizontalOptions="Center">
+                <HorizontalStackLayout Spacing="6">
+                    <Label Text="Plese visit" />
+
+                    <controls:HyperlinkLabel Text="www.tsjdev-apps.de"
+                                             Url="https://www.tsjdev-apps.de" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="6">
+                    <Label Text="Plese visit" />
+
+                    <controls:HyperlinkLabel Text="www.tsjdev-apps.de"
+                                             Url="https://www.tsjdev-apps.de"
+                                             TextColor="Red" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
             <HorizontalStackLayout HorizontalOptions="Center"
                                    Spacing="12">
                 <controls:StaticChipControl Text="Default" />
