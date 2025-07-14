@@ -1,12 +1,14 @@
 # Controls Library for .NET MAUI
 
-This repository contains some custom made controls for your .NET MAUI application. This library is currently under development and for the moment there is only a `RatingControl` available.
+This repository contains some custom made controls for your .NET MAUI application.
+
+This library is currently under development and for the moment there is a `HyperlinkLabel`, an `InitialsControl`, a `RatingControl`, and a `StaticChipControl` available.
 
 ## Installation
 
 Install the package via [NuGet](https://www.nuget.org/packages/tsjdevapps.MauiControlsLib).
 
-<a href="https://www.nuget.org/packages/tsjdevapps.MauiControlsLib" target="_blank">![Nuget](https://img.shields.io/nuget/v/tsjdevapps.MauiControlsLib)</a>
+[![Nuget](https://img.shields.io/nuget/v/tsjdevapps.MauiControlsLib)](https://www.nuget.org/packages/tsjdevapps.MauiControlsLib)
 
 ## Initialization
 
@@ -34,6 +36,24 @@ xmlns:controls="http://www.tsjdev-apps.de/controls/maui"
 
 ## Available Controls
 
+### HyperlinkLabel
+
+You can use the `HyperlinkLabel` in your .NET MAUI application to show a simple label, which will open a website on a tap.
+
+The following table explains all the available properties and their default value.
+
+| **name** | **type** | **default value** | **description** |
+|-|-|-|-|
+| `Url` | `string` | `null` | The url which should be opened |
+
+*Screenshot of `HyperlinkLabel` on **Android***
+
+![Android-Sample](./docs/mauicontrollibs-hyperlinklabel-android.png)
+
+*Screenshot of `HyperlinkLabel` on **Windows***
+
+![Windows-Sample](./docs/mauicontrollibs-hyperlinklabel-windows.png)
+
 ### InitialsControl
 
 You can use the `InitialsControl` in your .NET MAUI application to show a round badge with the initials of a person.
@@ -50,14 +70,11 @@ The following table explains all the available properties and their default valu
 
 *Screenshot of `InitialsControl` on **Android***
 
-![](./docs/mauicontrollibs-initalscontrol-android.png)
-
+![Android-Sample](./docs/mauicontrollibs-initalscontrol-android.png)
 
 *Screenshot of `InitialsControl` on **Windows***
 
-![](./docs/mauicontrollibs-initialscontrol-windows.png)
-
-
+![Windows-Sample](./docs/mauicontrollibs-initialscontrol-windows.png)
 
 ### RatingControl
 
@@ -77,13 +94,11 @@ The following table explains all the available properties and their default valu
 
 *Screenshot of `RatingControl` on **Android***
 
-![](./docs/mauicontrollibs-ratingcontrol-android.png)
-
+![Android-Sample](./docs/mauicontrollibs-ratingcontrol-android.png)
 
 *Screenshot of `RatingControl` on **Windows***
 
-![](./docs/mauicontrollibs-ratingcontrol-windows.png)
-
+![Windows-Sample](./docs/mauicontrollibs-ratingcontrol-windows.png)
 
 ### StaticChipControl
 
@@ -100,23 +115,19 @@ The following table explains all the available properties and their default valu
 
 *Screenshot of `StaticChipControl` on **Android***
 
-![](./docs/mauicontrollibs-staticchipcontrol-android.png)
-
+![Android-Sample](./docs/mauicontrollibs-staticchipcontrol-android.png)
 
 *Screenshot of `StaticChipControl` on **Windows***
 
-![](./docs/mauicontrollibs-staticchipcontrol-windows.png)
-
-
+![Windows-Sample](./docs/mauicontrollibs-staticchipcontrol-windows.png)
 
 ## Buy Me A Coffee
 
-I appreciate any form of support to keep my _Open Source_ activities going.
+I appreciate any form of support to keep my *Open Source* activities going.
 
 Whatever you decide, be it reading and sharing my blog posts, using my NuGet packages or buying me a coffee/book, thank you ❤️.
 
-<a href="https://www.buymeacoffee.com/tsjdevapps" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-yellow.png)](https://www.buymeacoffee.com/tsjdevapps)
 
 ## Contributing
 
