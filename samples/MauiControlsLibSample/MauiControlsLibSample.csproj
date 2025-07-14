@@ -10,6 +10,7 @@
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<MauiVersion>9.0.81</MauiVersion>
 
 		<!-- Display name -->
 		<ApplicationTitle>MauiControlsLibSample</ApplicationTitle>
@@ -49,15 +50,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\visualstudio.png" />
+		<None Remove="Resources\Images\visualstudio.png" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.7" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\src\MauiControlsLib\MauiControlsLib.csproj" />
+		<ProjectReference Include="..\..\src\MauiControlsLib\MauiControlsLib.csproj" />
 	</ItemGroup>
 
 </Project>
