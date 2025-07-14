@@ -22,20 +22,22 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>tsjdevapps.MauiControlsLib</PackageId>
 		<Title>tsjdevapps.MauiControlsLib</Title>
-		<Version>1.2.0</Version>
+		<Version>1.3.0</Version>
 		<Authors>Thomas Sebastian Jensen</Authors>
 		<Company>tsjdev-apps.de</Company>
 		<Description>Controls Library for .NET MAUI</Description>
-		<Copyright>© Thomas Sebastian Jensen | 2023</Copyright>
+		<Copyright>© Thomas Sebastian Jensen | 2023-2025</Copyright>
 		<PackageProjectUrl>https://github.com/tsjdev-apps/controlslib-maui</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/tsjdev-apps/controlslib-maui</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageIcon>icon.png</PackageIcon>
-		<PackageTags>.NET MAUI, Controls, Library, MAUI, net6, net7</PackageTags>
+		<PackageTags>.NET MAUI, Controls, Library, MAUI, net9</PackageTags>
 		<PackageReleaseNotes>
-			- Add StaticChipControl
+			- Add HyperlinkLabel control
+			- Update to .NET 9
 		</PackageReleaseNotes>
 		<NeutralLanguage>en</NeutralLanguage>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -45,6 +47,7 @@
 
 	<ItemGroup>
 		<None Include="icon.png" Pack="true" PackagePath="" />
+		<None Include="ReadMe.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 	<ItemGroup>
