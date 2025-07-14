@@ -2,7 +2,7 @@ using Maui.BindableProperty.Generator.Core;
 
 namespace MauiControlsLib.Controls;
 
-public partial class StaticChipControl : Frame 
+public partial class StaticChipControl : Border 
 {
 #pragma warning disable CS0169
     [AutoBindable(
