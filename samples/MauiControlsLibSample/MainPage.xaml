@@ -15,21 +15,20 @@
                 <HorizontalStackLayout Spacing="6">
                     <Label Text="Plese visit" />
 
-                    <controls:HyperlinkLabel Text="www.tsjdev-apps.de"
-                                             Url="https://www.tsjdev-apps.de" />
+                    <controls:HyperlinkLabel Text="www.tsjdev-apps.de" Url="https://www.tsjdev-apps.de" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout Spacing="6">
                     <Label Text="Plese visit" />
 
-                    <controls:HyperlinkLabel Text="www.tsjdev-apps.de"
-                                             Url="https://www.tsjdev-apps.de"
-                                             TextColor="Red" />
+                    <controls:HyperlinkLabel
+                        Text="www.tsjdev-apps.de"
+                        TextColor="Red"
+                        Url="https://www.tsjdev-apps.de" />
                 </HorizontalStackLayout>
             </VerticalStackLayout>
 
-            <HorizontalStackLayout HorizontalOptions="Center"
-                                   Spacing="12">
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="12">
                 <controls:StaticChipControl Text="Default" />
 
                 <controls:StaticChipControl
