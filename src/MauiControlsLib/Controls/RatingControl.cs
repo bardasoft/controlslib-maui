@@ -9,7 +9,6 @@ public partial class RatingControl : GraphicsView
 
 #pragma warning disable CS0169
 
-
     /// <summary>
     ///     Gets or sets the number of rating items to be displayed.
     /// </summary>

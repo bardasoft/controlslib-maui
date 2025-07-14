@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
     x:Class="MauiControlsLibSample.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -10,6 +10,23 @@
             Padding="30"
             Spacing="25"
             VerticalOptions="Center">
+
+            <VerticalStackLayout HorizontalOptions="Center">
+                <HorizontalStackLayout Spacing="6">
+                    <Label Text="Plese visit" />
+
+                    <controls:HyperlinkLabel Text="www.tsjdev-apps.de" Url="https://www.tsjdev-apps.de" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="6">
+                    <Label Text="Plese visit" />
+
+                    <controls:HyperlinkLabel
+                        Text="www.tsjdev-apps.de"
+                        TextColor="Red"
+                        Url="https://www.tsjdev-apps.de" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
 
             <HorizontalStackLayout HorizontalOptions="Center" Spacing="12">
                 <controls:StaticChipControl Text="Default" />
