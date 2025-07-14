@@ -1,4 +1,4 @@
-﻿using Maui.BindableProperty.Generator.Core;
+using Maui.BindableProperty.Generator.Core;
 using MauiControlsLib.Controls.Internal;
 using MauiControlsLib.Controls.Models;
 using System.Security.Cryptography;
@@ -126,7 +126,7 @@ public partial class InitialsControl : GraphicsView
             return string.Empty;
         }
 
-        var words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+        var words = name.Split([' '], StringSplitOptions.RemoveEmptyEntries);
 
         if (words.Length == 1)
         {
@@ -135,7 +135,7 @@ public partial class InitialsControl : GraphicsView
 
         if (words.Length > 1)
         {
-            var initialsString = words[0][0].ToString() + words[words.Length - 1][0].ToString();
+            var initialsString = words[0][0].ToString() + words[^1][0].ToString();
             return initialsString;
         }
 
